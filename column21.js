@@ -28,5 +28,5 @@ if (bagianWaktu.length !== 3 || isNaN(jam) || isNaN(menit) || isNaN(detik) || ja
     }
 }
 
-let jamBaru = `${String(jam).padStart(2, '0')} ${String(menit).padStart(2, '0')} ${String(detik).padStart(2, '0')}`;
+let jamBaru = `${String(jam).padStart(2, '0')}:${String(menit).padStart(2, '0')}:${String(detik).padStart(2, '0')}`;
 console.log(`Waktu baru setelah ditambah 1 detik: ${jamBaru}`);
